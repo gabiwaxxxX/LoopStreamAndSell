@@ -1,6 +1,8 @@
 # LoopStreamAndSell
 This repo is a v1 made in December 2021
- of a bot that allows to follow in real time the actions of an address: ours and to trigger a swap token event. Then there is determination of the dev wallet of the token thus bought and a stream of these actions. If the dev wallet performs a scam type action the bot will automatically sell the token we just swapped
+> There is a need to change the architecture of the code and how it works. Need to switch to TS and switch from ether.js library to web3.js<br/><br/>
+
+Bot that allows to follow in real time the actions of an address: ours and to trigger a swap token event. Then there is determination of the dev wallet of the token thus bought and a stream of these actions. If the dev wallet performs a scam type action the bot will automatically sell the token we just swapped
 
 **getWalletBalance.js** Allows to find the total amount that an address has of token X <br/><br/>
 **ScrappingCreatorAddress.js** Find the address that created the token X<br/><br/>
